@@ -5,6 +5,7 @@ module RailsSettings
 
     class SettingNotFound < RuntimeError; end
 
+    attr_accessible :var
     cattr_accessor :defaults
     @@defaults = {}.with_indifferent_access
 

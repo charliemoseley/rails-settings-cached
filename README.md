@@ -1,3 +1,14 @@
+# FORK INFORMATION
+
+This is a quick a dirty fork of rails-settings-cached gem built to be used in
+Rails4 apps using the protected_attributes gem.  In a MySQL environment, Mass
+Assigment Errors where being throw in addition to MySQL errors complaining about
+a lack of default values.
+
+Solves this issue:
+https://github.com/huacnlee/rails-settings-cached/issues/35
+
+
 # Settings Gem
 
 This is improved from rails-settings, added caching for all settings.
